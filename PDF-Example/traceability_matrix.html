@@ -34,7 +34,7 @@
 
 
   <title>
-  Product Design Framework - Traceability matrix
+  Product Design Framework Example - Traceability matrix
 </title>
 
   
@@ -335,8 +335,8 @@
 </svg>
   <div
     class="header__project_name"
-    title="Product Design Framework"
-  >Product Design Framework
+    title="Product Design Framework Example"
+  >Product Design Framework Example
   </div>
 
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" class="sc-gLvsXj bpkaBy"><path stroke="currentColor" d="M12.5 4.5l-5 11" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
@@ -799,6 +799,46 @@
               
                 
 
+<sdoc-node
+  node-style="card"
+  node-role="requirement"
+  js-requirements-coverage
+  data-status='draft'
+  data-uid='ADAS-SYS-REQ-1'
+>
+  <div
+    class="traceability_matrix__requirement"
+    
+    with_relation="parent"
+    
+    data-level="1"
+  >
+    <small><b >ADAS-SYS-REQ-1</b></small>
+    <br/>
+        1.&nbsp;Lane Detection
+  </div>
+</sdoc-node>
+
+<sdoc-node
+  node-style="card"
+  node-role="requirement"
+  js-requirements-coverage
+  data-status='draft'
+  data-uid='ADAS-SYS-REQ-2'
+>
+  <div
+    class="traceability_matrix__requirement"
+    
+    with_relation="parent"
+    
+    data-level="2"
+  >
+    <small><b >ADAS-SYS-REQ-2</b></small>
+    <br/>
+        2.&nbsp;ADAS Camera Sensor
+  </div>
+</sdoc-node>
+
                 
 
 <sdoc-node
@@ -838,6 +878,26 @@
     <small><b >ADAS-SYS-COMP-2</b></small>
     <br/>
         2.&nbsp;Lane Detection Module
+  </div>
+</sdoc-node>
+
+<sdoc-node
+  node-style="card"
+  node-role="requirement"
+  js-requirements-coverage
+  data-status='draft'
+  data-uid='PDF-SYS-TEST-1'
+>
+  <div
+    class="traceability_matrix__requirement"
+    
+    with_relation="child"
+    
+    data-level="1"
+  >
+    <small><b >PDF-SYS-TEST-1</b></small>
+    <br/>
+        1.&nbsp;Drift From Lane
   </div>
 </sdoc-node>
               
@@ -1085,7 +1145,67 @@
               
                 
 
+<sdoc-node
+  node-style="card"
+  node-role="requirement"
+  js-requirements-coverage
+  data-status='draft'
+  data-uid='ADAS-SYS-CASE-1'
+>
+  <div
+    class="traceability_matrix__requirement"
+    
+    with_relation="parent"
+    
+    data-level="1"
+  >
+    <small><b >ADAS-SYS-CASE-1</b></small>
+    <br/>
+        1.&nbsp;Driver Drifts Out of Lane
+  </div>
+</sdoc-node>
+
                 
+
+<sdoc-node
+  node-style="card"
+  node-role="requirement"
+  js-requirements-coverage
+  data-status='draft'
+  data-uid='ADAS-SYS-FEAT-1'
+>
+  <div
+    class="traceability_matrix__requirement"
+    
+    with_relation="child"
+    
+    data-level="1"
+  >
+    <small><b >ADAS-SYS-FEAT-1</b></small>
+    <br/>
+        1.&nbsp;Lane Detection
+  </div>
+</sdoc-node>
+
+<sdoc-node
+  node-style="card"
+  node-role="requirement"
+  js-requirements-coverage
+  data-status='draft'
+  data-uid='PDF-SYS-TEST-1'
+>
+  <div
+    class="traceability_matrix__requirement"
+    
+    with_relation="child"
+    
+    data-level="1"
+  >
+    <small><b >PDF-SYS-TEST-1</b></small>
+    <br/>
+        1.&nbsp;Drift From Lane
+  </div>
+</sdoc-node>
               
               </td>
             
@@ -1129,6 +1249,26 @@
               
                 
 
+<sdoc-node
+  node-style="card"
+  node-role="requirement"
+  js-requirements-coverage
+  data-status='draft'
+  data-uid='ADAS-SYS-CASE-1'
+>
+  <div
+    class="traceability_matrix__requirement"
+    
+    with_relation="parent"
+    
+    data-level="1"
+  >
+    <small><b >ADAS-SYS-CASE-1</b></small>
+    <br/>
+        1.&nbsp;Driver Drifts Out of Lane
+  </div>
+</sdoc-node>
+
                 
 
 <sdoc-node
@@ -1136,7 +1276,7 @@
   node-role="requirement"
   js-requirements-coverage
   data-status='draft'
-  data-uid='PDF-SYS-TEST-1'
+  data-uid='ADAS-SYS-FEAT-1'
 >
   <div
     class="traceability_matrix__requirement"
@@ -1145,9 +1285,9 @@
     
     data-level="1"
   >
-    <small><b >PDF-SYS-TEST-1</b></small>
+    <small><b >ADAS-SYS-FEAT-1</b></small>
     <br/>
-        1.&nbsp;Drift From Lane
+        1.&nbsp;Lane Detection
   </div>
 </sdoc-node>
               
@@ -1214,18 +1354,38 @@
   node-role="requirement"
   js-requirements-coverage
   data-status='draft'
-  data-uid='ADAS-SYS-REQ-2'
+  data-uid='ADAS-SYS-REQ-1'
 >
   <div
     class="traceability_matrix__requirement"
     
     with_relation="parent"
     
-    data-level="2"
+    data-level="1"
   >
-    <small><b >ADAS-SYS-REQ-2</b></small>
+    <small><b >ADAS-SYS-REQ-1</b></small>
     <br/>
-        2.&nbsp;ADAS Camera Sensor
+        1.&nbsp;Lane Detection
+  </div>
+</sdoc-node>
+
+<sdoc-node
+  node-style="card"
+  node-role="requirement"
+  js-requirements-coverage
+  data-status='draft'
+  data-uid='ADAS-SYS-FEAT-1'
+>
+  <div
+    class="traceability_matrix__requirement"
+    
+    with_relation="parent"
+    
+    data-level="1"
+  >
+    <small><b >ADAS-SYS-FEAT-1</b></small>
+    <br/>
+        1.&nbsp;Lane Detection
   </div>
 </sdoc-node>
 
@@ -1290,6 +1450,46 @@
                 
 
                 
+
+<sdoc-node
+  node-style="card"
+  node-role="requirement"
+  js-requirements-coverage
+  data-status='draft'
+  data-uid='ADAS-SYS-REQ-1'
+>
+  <div
+    class="traceability_matrix__requirement"
+    
+    with_relation="child"
+    
+    data-level="1"
+  >
+    <small><b >ADAS-SYS-REQ-1</b></small>
+    <br/>
+        1.&nbsp;Lane Detection
+  </div>
+</sdoc-node>
+
+<sdoc-node
+  node-style="card"
+  node-role="requirement"
+  js-requirements-coverage
+  data-status='draft'
+  data-uid='ADAS-SYS-REQ-2'
+>
+  <div
+    class="traceability_matrix__requirement"
+    
+    with_relation="child"
+    
+    data-level="2"
+  >
+    <small><b >ADAS-SYS-REQ-2</b></small>
+    <br/>
+        2.&nbsp;ADAS Camera Sensor
+  </div>
+</sdoc-node>
               
               </td>
             
